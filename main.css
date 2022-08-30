@@ -1,1 +1,23 @@
 /* Main stylesheet for project 1 */
+@media screen and (min-width: 1000px) {
+    body {max-width: 1000px;
+}
+}
+img#burger {
+    width: 20px;
+    height: 20px;
+    background: blue;
+}
+img#paddles {
+    width: 20px;
+    height: 20px;
+    background: blue;
+}
+nav.dropdown {
+    display: none;
+  }
+  
+  .dropdown > a {
+display: block
+}
+  
