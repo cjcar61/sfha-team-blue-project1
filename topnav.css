@@ -8,6 +8,8 @@
   /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
     display: none;
+    position: absolute;
+    z-index: 1;
   }
   
   /* Style navigation menu links */
@@ -40,5 +42,5 @@
     color: white;
   }
   #maintop {
-    
+    width: 1000px
   }
