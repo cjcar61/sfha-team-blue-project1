@@ -3,6 +3,14 @@
     body {max-width: 1000px;
 }
 }
+ .top {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    background: blue;
+    font-size: 20px;
+    color: white;
+ }
 img#burger {
     width: 20px;
     height: 20px;
@@ -12,12 +20,38 @@ img#paddles {
     width: 20px;
     height: 20px;
     background: blue;
+    padding-right: 5px;
+    /* position: absolute;
+    right: 0; */
 }
-nav.dropdown {
+/* .centred {
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+} */
+.dropdown {
     display: none;
   }
   
   .dropdown > a {
-display: block
+display: block;
+/* position: absolute; */
 }
-  
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px
+  } 
+  #maintop {
+    width: 100%;
+    height: auto;
+  } 
+  .show {display: block;}
