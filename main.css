@@ -31,10 +31,16 @@ img#paddles {
 } */
 .dropdown {
     display: none;
+    position: absolute;
+    z-index: 1;
   }
   
   .dropdown > a {
 display: block;
+background: blue;
+font-size: 20px;
+color: white;
+
 /* position: absolute; */
 }
 
@@ -55,3 +61,8 @@ display: block;
     height: auto;
   } 
   .show {display: block;}
+  @media screen and (max-width: 600px) {
+    .container {
+      display: none;
+    }
+  }
